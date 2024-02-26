@@ -7,17 +7,21 @@
 
 		npm create vite@latest . -- --template react
 
+  - [ReactRouter](https://reactrouter.com/en/main/start/tutorial)
+
+    npm install react-router-dom
+
 	- [Tailwind](https://tailwindcss.com/docs/installation)
 
   		npm install -D tailwindcss postcss autoprefixer
 		npx tailwindcss init -p
 
-	- [ReactRouter](https://reactrouter.com/en/main/start/tutorial)
-
-		npm install react-router-dom
+	
 ```
 
 # Configuración Tailwind
+
+Recomiendo instalar primero react roputer dom por que de si instalo primero tailwind mo me funciona bien
 
 1. Configuramos las rutas que contendrán estilos tailwind en el fichero tailwind.config.js:
 
