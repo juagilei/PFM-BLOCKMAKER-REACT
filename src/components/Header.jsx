@@ -1,7 +1,10 @@
-
+import { NavBar } from "./ui";
 
 export default function Header() {
     return (
-        <h1>Esto es el Header</h1>
+        <div>
+            <NavBar />
+        </div>
+        
     )
 } 
