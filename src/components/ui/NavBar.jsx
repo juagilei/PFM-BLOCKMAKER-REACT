@@ -6,15 +6,18 @@ export default function NavBar() {
       <img
         src="/public/PrestamoDefi.png"
         alt="PrestamoDefiTittle"
-        width={300}
+        width={200}
         className="py-3"
-      />
+        />
+          
+          {/* Diseño de la barra de navegacion para pantallas desktop */}
+          
       <nav className="hidden md:ml-6 md:block">
-        <ul className="flex gap-5 justify-between text-white">
+        <ul className="flex gap-5 justify-between">
           <li>
             <Link
               to="/"
-              className="text-fuchsia-700 hover:bg-gray-700 hover:text-pink-500 rounded-md px-3 py-2 text-sm font-medium"
+              className="text-fuchsia-700 hover:bg-gray-700 hover:text-pink-500 rounded-md px-3 py-2 text-xl font-medium"
             >
               Home
             </Link>
@@ -22,7 +25,7 @@ export default function NavBar() {
           <li>
             <Link
               to="/Altas"
-              className="text-pink-500 hover:bg-gray-700 hover:text-fuchsia-700 rounded-md px-3 py-2 text-sm font-medium"
+              className="text-fuchsia-700 hover:bg-gray-700 hover:text-pink-500 rounded-md px-3 py-2 text-xl font-medium"
             >
               Altas
             </Link>
@@ -30,7 +33,7 @@ export default function NavBar() {
           <li>
             <Link
               to="/Operaciones"
-              className="text-pink-500 hover:bg-gray-700 hover:text-fuchsia-700 rounded-md px-3 py-2 text-sm font-medium"
+              className="text-fuchsia-700 hover:bg-gray-700 hover:text-pink-500 rounded-md px-3 py-2 text-xl font-medium"
             >
               Operaciones
             </Link>
@@ -38,7 +41,7 @@ export default function NavBar() {
           <li>
             <Link
               to="/Info"
-              className="text-pink-500 hover:bg-gray-700 hover:text-fuchsia-700 rounded-md px-3 py-2 text-sm font-medium"
+              className="text-fuchsia-700 hover:bg-gray-700 hover:text-pink-500 rounded-md px-3 py-2 text-xl font-medium"
             >
               Info
             </Link>
