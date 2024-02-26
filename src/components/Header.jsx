@@ -2,7 +2,7 @@ import { NavBar } from "./ui";
 
 export default function Header() {
     return (
-        <div>
+        <div className="bg-black">
             <NavBar />
         </div>
         
