@@ -1,5 +1,5 @@
-import { Routes, Route } from "react-router-dom";
-import { Home, Altas, Operaciones, Info, NotFound } from "./Pages";
+import { Routes, Route } from "react-router-dom"
+import { Home, Altas, Operaciones, Info, NotFound } from "./pages"
 export default function App() {
   return (
     <Routes>
