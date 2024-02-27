@@ -1,4 +1,7 @@
-import { NavBar } from "./ui";
+import { NavBar } from './ui';
+
+
+
 
 export default function Header() {
     return (
