@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Navigation from "../Navigation";
+import Navigation from "./Navigation";
+import { ConnectKitButton } from 'connectkit';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,10 +18,12 @@ export default function Navbar() {
              <img src="/public/PrestamoDefi.png" alt="PrestamoDefiLogo" width={200} />
             </div>
           </div>
-          <div className="hidden md:flex">
+          <div className="hidden md:flex items-center">
             <Navigation />
+            <ConnectKitButton />
           </div>
-          <div className="flex md:hidden">
+          <div className="flex items-center md:hidden">
+            <ConnectKitButton />
             <button onClick={toggleMenu} className="text-gray-300 hover:bg-gray-700 hover:text-white inline-flex items-center justify-center p-2 rounded-md focus:outline-none">
               <svg className="block h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -30,7 +33,7 @@ export default function Navbar() {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden">
+        <div className="md:hidden items-center flex">
           <Navigation />
         </div>
       )}

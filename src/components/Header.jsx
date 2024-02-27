@@ -1,4 +1,4 @@
-import { NavBar } from './ui';
+import { NavBar } from './';
 
 
 
@@ -8,6 +8,6 @@ export default function Header() {
         <div className="bg-black">
             <NavBar />
         </div>
-        
+
     )
-} 
+}

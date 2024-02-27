@@ -203,3 +203,33 @@ Luego englobamos el componente App.jsx:
 	export default App
 ```
 
+# Configuración del Header
+
+1. Diseñamos una barra de navgacion con los siguientes archivos:
+
+	- Navigation.jsx:
+
+		Donde introducimos el las paginas de navegación
+
+	- NavBar.jsx:
+
+		Donde diseñamos botones, posiciones y diseño responsivo.
+
+2. Configuracion de web3 para introducir el boton connectWallet.
+
+	1. Instalamos las dependencias ConnectKit:
+
+		Instalamos connectkit, wagmi y viem
+
+```
+	npm install connectkit wagmi viem@2.x @tanstack/react-query
+```
+
+	2. APi keys:
+	
+	Necesitaremos uns key para poder acceder a la red blockchain por lop que nos registramos en [WalletConnect Cloud](https://cloud.walletconnect.com/)
+	La keys las guardaremos en un archivo .env, como contendrá datos sensibles no se subira a github.
+
+
+
+
