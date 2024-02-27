@@ -230,6 +230,15 @@ Luego englobamos el componente App.jsx:
 	Necesitaremos uns key para poder acceder a la red blockchain por lop que nos registramos en [WalletConnect Cloud](https://cloud.walletconnect.com/)
 	La keys las guardaremos en un archivo .env, como contendrá datos sensibles no se subira a github.
 
+	3. Creamos Web3Provider.jsx para envolver la aplicación en App.jsx.
+	
+		Usamos <ConnectKitButton /> en el Header para poder usarlo en cualquier pagina.
+
+	4. Se despliega el contrato en sepolia con remix.
+
+		Se crea un archivo PrestamoDefiABI.js donde se guardan los datos del ABI de contrato.
+
+
 
 
 

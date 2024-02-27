@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-             <img src="/public/PrestamoDefi.png" alt="PrestamoDefiLogo" width={200} />
+             <img src="/public/PrestamoDefi.png" alt="PrestamoDefiLogo" width={270} />
             </div>
           </div>
           <div className="hidden md:flex items-center">
