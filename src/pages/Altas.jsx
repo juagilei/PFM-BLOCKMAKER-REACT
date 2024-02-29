@@ -1,3 +1,12 @@
+import { Button } from "../components/ui";
+
+
 export default function Altas() {
-  return <h1>Esta es la pagina de altas</h1>;
+  return (
+    <div className="bg-black w-auto h-[85vh]">
+      <Button>
+        click
+      </Button>
+     </div>
+  )
 }
