@@ -1,2 +1,1 @@
-
-export {default as NavBar} from '../NavBar'
+export { defaul as LoadingSpiner } from "./LoadingSpiner"

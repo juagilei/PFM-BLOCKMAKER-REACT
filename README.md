@@ -215,7 +215,7 @@ Luego englobamos el componente App.jsx:
 
 		Donde diseñamos botones, posiciones y diseño responsivo.
 
-2. Configuracion de web3 para introducir el boton connectWallet.
+# Configuracion de web3 e oinstalacion de wagni para introducir el boton connectWallet.
 
 	1. Instalamos las dependencias ConnectKit:
 
@@ -237,6 +237,17 @@ Luego englobamos el componente App.jsx:
 	4. Se despliega el contrato en sepolia con remix.
 
 		Se crea un archivo PrestamoDefiABI.js donde se guardan los datos del ABI de contrato.
+
+# Creacion de componentes ui
+
+	Vamos a crear algunos componentes que usaremos de forma repetida, como pueden ser inputs, botones, etc.....
+
+### 1. LoadingSpiner
+	Es el típico icono que usaremos para indicar las cargas.
+	Para ello necesitamos instalar la librería de iconos react-icons.
+```
+npm install react-icons --save
+```
 
 
 
