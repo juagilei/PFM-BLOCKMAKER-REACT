@@ -1,1 +1,4 @@
-export { defaul as LoadingSpiner } from "./LoadingSpiner"
+export { default as Button } from './Boton'
+
+export { default as LoadingSpinner } from './LoadingSpinner'
+

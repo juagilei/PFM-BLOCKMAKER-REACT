@@ -1,11 +1,12 @@
-import LoadingSpinner from "../components/ui/LoadingSpiner";
+import { Button } from "../components/ui";
+
 
 export default function Altas() {
   return (
-    <><p>
-      esta es la pagina de Altas
-    </p>
-    <LoadingSpinner clasName="w-2 h-2" />
-    </>
+    <div className="bg-black w-auto h-[85vh]">
+      <Button>
+        click
+      </Button>
+     </div>
   )
 }
