@@ -250,9 +250,16 @@ npm install react-icons --save
 ```
 	Creamos el componente LoadSpiner.jsx
 ### 2. Boton
-	Creamos un boton general para usarlo en todos los casos aque sea necesario.
+	Creamos un boton general para usarlo en todos los casos que sea necesario.
 
-	Componente button.jsx
+	Componente Boton.jsx
+### 3. ErrorInfo.
+	Creamos un componente el cual nos indique errores.
+
+	utilizamos el tipico icono de info error importado de la libreria react-icons que se llama MdInfoOutline
+
+	Componente Error.jsx
+
 
 
 

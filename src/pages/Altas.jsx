@@ -1,4 +1,4 @@
-import { Button } from "../components/ui";
+import { Button, ErrorInfo } from "../components/ui";
 
 
 export default function Altas() {
@@ -7,6 +7,7 @@ export default function Altas() {
       <Button isLoading>
         click click
       </Button>
+      <ErrorInfo message='mensaje de error'/>
      </div>
   )
 }
