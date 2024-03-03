@@ -259,6 +259,9 @@ npm install react-icons --save
 	utilizamos el tipico icono de info error importado de la libreria react-icons que se llama MdInfoOutline
 
 	Componente Error.jsx
+### 4. Input
+	Creamos un componente input para introducir datos a la app.
+
 
 
 
