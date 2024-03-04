@@ -262,9 +262,16 @@ npm install react-icons --save
 ### 4. Input
 	Creamos un componente input para introducir datos a la app.
 	TextInput.jsx
-### 5.Tittle
+### 5. Tittle
 	Creamos un componente título para usar el mismo título en todas partes.
+	Tittle.jsx
+
+# Componentes Web3.
+	Componentes que interactuan con las fucniones del contrato.
+
+
 	
+
 
 
 

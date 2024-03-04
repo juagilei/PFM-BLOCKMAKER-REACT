@@ -1,1 +1,1 @@
-export { default as PrestamoDefiABI } from "./PrestamoDefiABI"
+export * from "./PrestamoDefiABI"

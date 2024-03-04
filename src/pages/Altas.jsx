@@ -1,3 +1,4 @@
+import { AltaPrestamista } from "../components";
 import { Button, ErrorInfo, TextInput, Tittle } from "../components/ui";
 
 
@@ -10,6 +11,7 @@ export default function Altas() {
       <ErrorInfo message='mensaje de error' />
       <TextInput />
       <Tittle> Esto es el Tittle</Tittle>
+      <AltaPrestamista />
      </div>
   )
 }
