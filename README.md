@@ -261,6 +261,10 @@ npm install react-icons --save
 	Componente Error.jsx
 ### 4. Input
 	Creamos un componente input para introducir datos a la app.
+	TextInput.jsx
+### 5.Tittle
+	Creamos un componente título para usar el mismo título en todas partes.
+	
 
 
 
