@@ -1,7 +1,9 @@
+
 import { Routes, Route } from "react-router-dom";
 import { Home, Altas, Operaciones, Info, NotFound } from "./pages";
 import AppLayout from "./components/ui/Layouts/AppLayout";
-import { Web3Provider } from "./config/Web3Provider"
+import { Web3Provider } from "./config/Web3Provider";
+
 export default function App() {
   return (
     <Web3Provider>
