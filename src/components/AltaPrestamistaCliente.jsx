@@ -4,15 +4,15 @@ import {PrestamoDefiABI} from '../contracts/ABIs'
 
 export default function AltaPrestamistaCliente() {
 
-    const result = useReadContract({
+    const {data} = useReadContract({
         abi: PrestamoDefiABI,
-        address: import.meta.env.VITE_PRESTAMO_DEFI_CONTRACT_ADDRESS,
+        address: '0xC3b356B7Ca071Bf9D552E8CFE552dF94721e11F2',
         functionName: 'socioPrincipal',
     }
         )
     return (
-        <div className='text-white'>
-            {console.log(result)};
+        <div>
+           
            <p>hola que tal</p>
         </div>
 
