@@ -11,6 +11,6 @@ export default function WalletConnect() {
         <Tittle> 🔒 Conecta tu wallet para comenzar </Tittle>
       )}
     </div>
-      
+
   );
 }
