@@ -269,6 +269,9 @@ npm install react-icons --save
 # Componentes Web3.
 	Componentes que interactuan con las fucniones del contrato.
 
+### 1. WalletConnect
+	Componente que comprueba si la waalet esta conectada o no.
+
 
 	
 
