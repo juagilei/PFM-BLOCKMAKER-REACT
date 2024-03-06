@@ -273,7 +273,10 @@ npm install react-icons --save
 	Comprobamos que esté conectada la wallet
 
 ### 2. AltaPrestamistaCliente
-	Com probamos la direcciones y en función de cada dirección en pantalla saldrá una opción u otra
+	Comprobamos la direcciones y en función de cada dirección en pantalla saldrá una opción u otra.
+### 3. AltaPrestamista
+	Componente que da de alta al presatamista, solo puede dar de alta el socio principal
+
 
 
 
