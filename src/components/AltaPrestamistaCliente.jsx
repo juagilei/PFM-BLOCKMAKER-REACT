@@ -1,5 +1,6 @@
 import { useReadContract, useAccount } from 'wagmi'
 import {PrestamoDefiABI} from '../contracts/ABIs'
+import {AltaPrestamista} from './'
 
 
 export default function AltaPrestamistaCliente() {
@@ -15,7 +16,7 @@ export default function AltaPrestamistaCliente() {
     return (
         <div>
             {data === address ? (
-           <p>Alta Prestamista</p>
+                <AltaPrestamista />
             ) : (
             <p>No eres socio principal</p>
            )}
