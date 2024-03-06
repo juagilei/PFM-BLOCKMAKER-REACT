@@ -269,11 +269,22 @@ npm install react-icons --save
 # Componentes Web3.
 	Componentes que interactuan con las fucniones del contrato.
 
-### 1. WalletConnect
-	Componente que comprueba si la waalet esta conectada o no.
+### 1. Modificacion pagina Altas
+	Comprobamos que esté conectada la wallet
+
+### 2. AltaPrestamistaCliente
+	Com probamos la direcciones y en función de cada dirección en pantalla saldrá una opción u otra
 
 
-	
+	# Alchemy
+VITE_ALCHEMY_ID=gnG8hgefDMX25gQ9809RqTMywop1JPQt
+
+# WalletConnect
+VITE_WALLETCONNECT_PROJECT_ID=cd69312abbea1f208f32f5d2e4a1ffd5
+
+# Contract address
+VITE_PRESTAMO_DEFI_CONTRACT_ADDRESS=0xC3b356B7Ca071Bf9D552E8CFE552dF94721e11F2
+
 
 
 
