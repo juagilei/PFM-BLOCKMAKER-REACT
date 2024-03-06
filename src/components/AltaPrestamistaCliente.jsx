@@ -6,13 +6,13 @@ export default function AltaPrestamistaCliente() {
 
     const {data} = useReadContract({
         abi: PrestamoDefiABI,
-        address: '0xC3b356B7Ca071Bf9D552E8CFE552dF94721e11F2',
+        address: import.meta.env.VITE_PRESTAMO_DEFI_CONTRACT_ADDRESS,
         functionName: 'socioPrincipal',
     }
         )
     return (
         <div>
-           
+           {data}
            <p>hola que tal</p>
         </div>
 
