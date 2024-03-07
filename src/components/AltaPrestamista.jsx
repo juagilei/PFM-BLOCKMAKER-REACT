@@ -19,8 +19,11 @@ export default function AltaPrestamista() {
     setAddress(event.target.value);
   };
 
-  {/* Usamos el hook de wagmi para escribir en el contrato*/}
+  {
+    /* Usamos el hook useWriteContract para escribir en el contrato */
+  }
   const { writeContract } = useWriteContract();
+
   const handlerOnClick = () =>
     writeContract({
       abi: PrestamoDefiABI,
