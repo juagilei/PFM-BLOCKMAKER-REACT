@@ -1,5 +1,4 @@
 import { useAccount } from "wagmi";
-import { Tittle } from "../components/ui";
 import AltaPrestamistaCliente from "../components/AltaPrestamistaCliente";
 
 
@@ -10,7 +9,7 @@ export default function Altas() {
       {isConnected ? (
         <AltaPrestamistaCliente />
       ) : (
-        <Tittle> 🔒 Conecta tu wallet para comenzar </Tittle>
+         <h1 className="text-2xl text-gray-400 ">🔒 Conecta tu wallet para comenzar </h1>
       )}
     </div>
 

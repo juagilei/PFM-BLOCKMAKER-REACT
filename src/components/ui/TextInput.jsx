@@ -8,7 +8,7 @@ export default function TextInput({ type, onChange, value, placeholder, disabled
             value={value}
             placeholder={placeholder}
             disabled={disabled}
-            className='border border-gray-300 marker rounded-md w-full px-3 py-2 outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent disabled:cursor-not-allowed'/>
+            className='text-black border border-gray-300 marker rounded-md w-full px-3 py-2 outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent disabled:cursor-not-allowed'/>
     )
 }
 TextInput.propTypes = {

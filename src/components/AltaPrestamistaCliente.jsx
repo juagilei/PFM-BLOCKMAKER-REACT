@@ -15,6 +15,7 @@ export default function AltaPrestamistaCliente() {
 
     return (
         <div>
+            {/* compruebo la direccion del socio principal*/}
             {data === address ? (
                 <AltaPrestamista />
             ) : (

@@ -5,7 +5,7 @@ export default function Button({type, children, disabled, onClick, isLoading }) 
   return (
     <button
     type={type}
-    className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded disabled:opacity-50 disabled:cursor-not-allowed"
+    className="flex justify-center items-center w-fit bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded disabled:opacity-50 disabled:cursor-not-allowed"
     disabled={disabled}
     onClick={onClick}>
       <span className=" flex gap-3 items-center px-3 ">
