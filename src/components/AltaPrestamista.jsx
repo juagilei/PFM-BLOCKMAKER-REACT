@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { Tittle, TextInput, Button } from "../components/ui";
+import { useWriteContract } from "wagmi";
+import { PrestamoDefiABI } from "../contracts/ABIs";
+
 export default function AltaPrestamista() {
   {
     /* ojo al declarar las variables del useState son un array asi que va entre [] */
@@ -15,6 +18,20 @@ export default function AltaPrestamista() {
     }
     setAddress(event.target.value);
   };
+
+  {
+    /* Usamos el hook useWriteContract para escribir en el contrato */
+  }
+  const { writeContract } = useWriteContract();
+
+  const handlerOnClick = () =>
+    writeContract({
+      abi: PrestamoDefiABI,
+      address: import.meta.env.VITE_PRESTAMO_DEFI_CONTRACT_ADDRESS,
+      functionName: "altaPrestamista (0xc1e83336)",
+      args: [address],
+    });
+
   return (
     <section className="flex flex-col justify-center border shadow rounded-xl p-5 border-fuchsia-600">
       <Tittle>Alta Prestamista</Tittle>
@@ -27,8 +44,7 @@ export default function AltaPrestamista() {
             placeholder="Address"
             onChange={handlerAddressInputChange}
           />
-          <Button>Dar de alta </Button>
-          {address}
+          <Button onClick={handlerOnClick}>Dar de alta </Button>
         </div>
       </form>
     </section>
