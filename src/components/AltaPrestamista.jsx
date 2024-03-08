@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Tittle, TextInput, Button } from "../components/ui";
-import { useWriteContract } from "wagmi"; /
+import { useWriteContract } from "wagmi"; // Asegúrate de importar correctamente useWriteContract
 import { PrestamoDefiABI } from "../contracts/ABIs";
 
 export default function AltaPrestamista() {
@@ -10,14 +10,14 @@ export default function AltaPrestamista() {
     setAddress(event.target.value);
   };
 
-  const { writeContract } = useWriteContract(); 
+  const { writeContract } = useWriteContract(); // Asegúrate de que useWriteContract esté configurado correctamente
 
   const handlerOnClick = () => {
-    
+    // Verifica que los argumentos estén formateados correctamente
     writeContract({
       abi: PrestamoDefiABI,
       address: import.meta.env.VITE_PRESTAMO_DEFI_CONTRACT_ADDRESS,
-      functionName: "altaPrestamista", 
+      functionName: "altaPrestamista", // Nombre de la función sin los parámetros
       args: [address],
     }).then((response) => {
       // Maneja la respuesta de la transacción
