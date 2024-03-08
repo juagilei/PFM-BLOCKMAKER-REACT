@@ -273,18 +273,9 @@ npm install react-icons --save
 	Comprobamos que esté conectada la wallet
 
 ### 2. AltaPrestamistaCliente
-	Com probamos la direcciones y en función de cada dirección en pantalla saldrá una opción u otra
-
-
-	# Alchemy
-VITE_ALCHEMY_ID=gnG8hgefDMX25gQ9809RqTMywop1JPQt
-
-# WalletConnect
-VITE_WALLETCONNECT_PROJECT_ID=cd69312abbea1f208f32f5d2e4a1ffd5
-
-# Contract address
-VITE_PRESTAMO_DEFI_CONTRACT_ADDRESS=0xC3b356B7Ca071Bf9D552E8CFE552dF94721e11F2
-
+	Comprobamos la direcciones y en función de cada dirección en pantalla saldrá una opción u otra
+### 3. AltaPrestamista
+	Creamos el componente para dar de alta al prestamista
 
 
 
