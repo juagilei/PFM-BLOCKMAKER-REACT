@@ -24,7 +24,7 @@ export default function AltaPrestamistaCliente() {
           {/* compruebo si es socio principal o prestamista para dar altas */}
       {socioPrincipalData === address ? (
         <AltaPrestamista />
-      ) : PrestamistaData ? (
+      ) : PrestamistaData === address ? (
         <AltaCliente />
       ) : (
         <p>No estás autorizado</p>
