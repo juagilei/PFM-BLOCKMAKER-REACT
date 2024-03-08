@@ -20,7 +20,8 @@ export default function AltaPrestamistaCliente() {
   const { data: PrestamistaData } = Prestamista;
 
   return (
-    <div>
+      <div>
+          {/* compruebo si es socio principal o prestamista para dar altas */}
       {socioPrincipalData === address ? (
         <AltaPrestamista />
       ) : PrestamistaData ? (

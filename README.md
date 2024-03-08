@@ -276,6 +276,9 @@ npm install react-icons --save
 	Comprobamos la direcciones y en función de cada dirección en pantalla saldrá una opción u otra
 ### 3. AltaPrestamista
 	Creamos el componente para dar de alta al prestamista
+### 4. AltaCliente
+	Creamos el componente para dar de alta al cliente
+
 
 
 
