@@ -7,7 +7,7 @@ export default function AppLayout({ children }) {
   return (
     <React.Fragment>
       <Header />
-      <main className="mx-auto min-h-[85vh]">{children}</main>
+      <main className="mx-auto min-h-[70vh]">{children}</main>
       <Footer />
     </React.Fragment>
   )
