@@ -1,6 +1,6 @@
 import { useReadContract, useAccount } from "wagmi";
 import { PrestamoDefiABI } from "../contracts/ABIs";
-import { AltaPrestamista, AltaCliente } from "./";
+import { OperacionesPrestamista, OperacionesCliente } from "./";
 
 export default function AltaPrestamistaCliente() {
   const { address } = useAccount();
@@ -25,9 +25,9 @@ export default function AltaPrestamistaCliente() {
       <div>
           {/* compruebo si es socio principal o prestamista para dar altas */}
       {ClienteData === address ? (
-        <AltaPrestamista />
+        <OperacionesPrestamista />
       ) : PrestamistaData === address ? (
-        <AltaCliente />
+        <OperacionesCliente />
       ) : (
         <p>No estás autorizado</p>
       )}
