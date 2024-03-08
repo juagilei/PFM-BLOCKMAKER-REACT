@@ -7,7 +7,7 @@ export default function Operaciones() {
   return (
     <div className=" mx-auto min-h-[85vh] flex justify-center items-center text-white">
       {isConnected ? (
-        <AltaPrestamistaCliente />
+        <OperacionesPrestamistaCliente />
       ) : (
          <h1 className="text-2xl text-gray-400 ">🔒 Conecta tu wallet para comenzar </h1>
       )}
