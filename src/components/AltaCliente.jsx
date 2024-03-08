@@ -3,7 +3,7 @@ import { Tittle, TextInput, Button } from "../components/ui";
 import { useWriteContract } from "wagmi";
 import { PrestamoDefiABI } from "../contracts/ABIs";
 
-export default function AltaPrestamista() {
+export default function AltaCliente() {
   {
     /* ojo al declarar las variables del useState son un array asi que va entre [] */
   }
